@@ -1,6 +1,7 @@
 //imports
 import Animal from './Animal'
 import Human from './Human'
+import Car from './Car'
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Animal pizza="eagle"/>
       <Animal pizza="lion"/>
       <Human name="nikki" location="Seattle"/>
+      <Car />
     </div>
   );
 }
